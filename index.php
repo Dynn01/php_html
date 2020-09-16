@@ -16,12 +16,12 @@
             <?php foreach($data_siswa as $key => $value): ?>
 
             <div class="col-3">
-             <div class="card" style="width: 18rem;">
-               <img src="assets/images/login-illustration.png" class="card-img-top" alt="...">
+             <div class="card <?php if($value[3]==true){echo "bg-primary";}?>" style="width: 18rem;">
+               <img src="assets/images/marshmello.jpg" class="card-img-top bg-transparent" alt="...">
                  <div class="card-body">
                    <h5 class="card-title"><?php echo $value[0];?></h5>
                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                   <a href="#" class="btn btn-dark">Go somewhere</a>
                  </div>
              </div>
             </div>
